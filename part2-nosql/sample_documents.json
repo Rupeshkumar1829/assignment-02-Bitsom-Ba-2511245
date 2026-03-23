@@ -1,0 +1,34 @@
+[
+  {
+    "product_id": 1,
+    "name": "Samsung Smart TV",
+    "category": "Electronics",
+    "price": 45000,
+    "brand": "Samsung",
+    "warranty_years": 2,
+    "voltage": "220V"
+  },
+  {
+    "product_id": 2,
+    "name": "Men Casual Shirt",
+    "category": "Clothing",
+    "price": 1200,
+    "brand": "Levis",
+    "size": ["S", "M", "L", "XL"],
+    "material": "Cotton"
+  },
+  {
+    "product_id": 3,
+    "name": "Organic Milk",
+    "category": "Groceries",
+    "price": 60,
+    "brand": "Amul",
+    "expiry_date": {
+      "$date": "2024-12-25T00:00:00Z"
+    },
+    "nutrition": {
+      "protein": "3g",
+      "fat": "3.5g"
+    }
+  }
+]
